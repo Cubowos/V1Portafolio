@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+html,
+body {
+	font-family: sans-serif;
+	scroll-behavior: smooth;
+    background-color: #CE93D8;
+}
+
+
+
+h4 {
+	font-size: 28px;
+    font-weight: 400;
+	padding-bottom: 15px;
+    font-style: initial;
+    
+}
+
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.7em;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.container {
+	margin: auto;
+	max-width: 1300px;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+.large {
+	font-size: 2rem;
+}
+
+.display-1 {
+	font-size: 7.5rem;
+}
+
+.boton {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 300px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 15px 45px;
+	cursor: pointer;
+}
+
+.botonApretar {
+	background: rgb(216, 215, 215);
+	border: 1px solid #000;
+	color: #000;
+}
+
+.botonApretar:hover {
+	background: #000;
+	color: #fff;
+}
+
+.form-flex {
+	display: flex;
+}
+
+.form-group-name,
+.form-group-email {
+	width: 50%;
+    
+}
+
+.form-group-name {
+	margin-right: 10px;
+}
+
+form .form-group {
+	margin-bottom: 16px;
+}
+
+form .form-control {
+	display: block;
+	width: 100%;
+	padding: 10px 12px;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	border: 1px solid #ced4da;
+}
+
+form textarea {
+	font-family:  sans-serif;
+}
+
+/* Mainheader */
+#mainheader {
+	height: 100vh;
+}
+
+/* Navbar */
+#navbar {
+	overflow: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#navbar a {
+	color: #000;
+}
+
+#navbar img {
+	float: left;
+	padding-top: 16px;
+	font-size: 25px;
+	height: 60px;
+}
+
+#navbar ul {
+	list-style: none;
+	float: right;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#navbar ul li a:hover {
+	text-decoration: underline;
+}
+
+/* Showcase */
+#showcase {
+	text-align: center;
+	padding: 150px 0;
+}
+
+#showcase h1,
+.large {
+	text-transform: uppercase;
+}
+
+#showcase .large {
+	font-weight: 200;
+	margin-top: -20px;
+}
+
+/* Portoflio */
+#portfolio {
+	padding: 80px 0;
+}
+
+.portfolio-row {
+	display: flex;
+}
+
+.portfolio-row-img {
+	margin: 10px;
+}
+
+.portfolio-row-img img {
+	width: 75%;
+    height: 75%;
+	border-radius: 20px;
+}
+
+
+#about {
+	padding: 80px 0;
+	background: #E1BEE7;
+}
+
+.imagenSaludo {
+	display: flex;
+}
+
+.saludo{
+	width: 40%;
+    height: 50%;
+    
+}
+
+.acercaTexto{
+	width: 50%;
+	padding-left: 50px;
+	padding-top: 40px;
+    
+}
+
+
+
+
+#contact {
+	padding: 80px 0;
+}
+
